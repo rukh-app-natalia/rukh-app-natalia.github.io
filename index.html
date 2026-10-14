@@ -10,7 +10,7 @@
 <title>rukh</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700;800&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
 <link rel="manifest" href="manifest.webmanifest?v=12">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta name="mobile-web-app-capable" content="yes">
@@ -58,7 +58,7 @@ body::before{content:'';position:fixed;inset:0;z-index:-1;pointer-events:none;
   background:radial-gradient(680px 420px at 84% -6%,var(--glow1),transparent 62%),
              radial-gradient(560px 460px at 6% 8%,var(--glow2),transparent 60%),
              radial-gradient(520px 400px at 50% 106%,var(--glow3),transparent 66%)}
-h1,h2,h3,.num,.len,.clock,.brand{font-family:'Baloo 2',system-ui,sans-serif;font-weight:700;letter-spacing:-.01em;margin:0;line-height:1.2}
+h1,h2,h3,.num,.len,.clock,.brand{font-family:'M PLUS Rounded 1c','Nunito',system-ui,sans-serif;font-weight:700;letter-spacing:-.01em;margin:0;line-height:1.2}
 h1{font-size:30px;font-weight:800}
 h2{font-size:21px}
 h3{font-size:16px}
@@ -157,7 +157,7 @@ canvas.bear3d{width:100%!important;height:100%!important;display:block;filter:dr
 
 .streak{display:flex;gap:10px;margin-bottom:14px}
 .stat{flex:1;background:var(--card);border-radius:22px;padding:14px 10px;text-align:center;box-shadow:var(--sh-s)}
-.stat .n{font-family:'Baloo 2';font-size:26px;font-weight:800;line-height:1.1}
+.stat .n{font-family:'M PLUS Rounded 1c','Nunito';font-size:26px;font-weight:800;line-height:1.1}
 .stat .l{font-size:10.5px;color:var(--ink-40);font-weight:800;margin-top:2px;letter-spacing:.04em}
 
 .exlist{margin-top:4px}
@@ -166,7 +166,7 @@ canvas.bear3d{width:100%!important;height:100%!important;display:block;filter:dr
 .exrow .ix{width:30px;height:30px;flex:none;border-radius:12px;background:var(--chipbg);color:var(--blue-d);font-size:12px;font-weight:800;display:grid;place-items:center}
 .exrow .nm{font-weight:800;font-size:14.5px}
 .exrow .tg{font-size:11.5px;color:var(--ink-40);font-weight:700}
-.exrow .du{margin-left:auto;font-family:'Baloo 2';font-size:14px;color:var(--ink-60);font-weight:700}
+.exrow .du{margin-left:auto;font-family:'M PLUS Rounded 1c','Nunito';font-size:14px;color:var(--ink-60);font-weight:700}
 
 .path{display:grid;grid-template-columns:22px repeat(7,1fr);gap:7px;align-items:center}
 .wk{font-size:10.5px;color:var(--ink-40);font-weight:800}
@@ -214,7 +214,7 @@ canvas.bear3d{width:100%!important;height:100%!important;display:block;filter:dr
 .clock{background:var(--card);border-radius:22px;padding:10px 30px;font-size:44px;font-weight:800;color:var(--ink);
   box-shadow:0 14px 26px -16px rgba(70,110,140,.9);margin-top:20px;letter-spacing:.01em;font-variant-numeric:tabular-nums}
 .pl-kind{font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:var(--plink);opacity:.6;margin-top:10px}
-.pl-name{font-family:'Baloo 2';font-weight:700;font-size:min(6.4vw,24px);margin-top:6px;line-height:1.2;padding:0 6px}
+.pl-name{font-family:'M PLUS Rounded 1c','Nunito';font-weight:700;font-size:min(6.4vw,24px);margin-top:6px;line-height:1.2;padding:0 6px}
 .pl-hint{font-size:13.5px;color:var(--plink);opacity:.78;margin-top:7px;max-width:330px;line-height:1.5;font-weight:600;
   display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .pl-side{margin-top:9px;font-size:11.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--sun);min-height:15px}
@@ -225,7 +225,7 @@ canvas.bear3d{width:100%!important;height:100%!important;display:block;filter:dr
 .pl-ctrl button{border-radius:50%;background:var(--glass2);display:grid;place-items:center;width:58px;height:58px;font-size:18px;color:var(--blue-d);box-shadow:var(--sh-s)}
 .pl-ctrl .main{width:82px;height:82px;background:var(--card);color:var(--blue-d);font-size:26px;box-shadow:0 16px 28px -14px rgba(70,110,140,.95)}
 .done-wrap{text-align:center;padding:0 10px}
-.done-wrap .big{font-family:'Baloo 2';font-size:46px;font-weight:800}
+.done-wrap .big{font-family:'M PLUS Rounded 1c','Nunito';font-size:46px;font-weight:800}
 .done-wrap .bird{width:120px;margin:0 auto 6px}
 
 .sheet{position:fixed;inset:0;z-index:90;display:none;align-items:flex-end;justify-content:center;background:rgba(47,76,99,.42);backdrop-filter:blur(3px)}
@@ -314,6 +314,146 @@ details p{margin-top:8px;font-size:13.5px;color:var(--ink-60);line-height:1.6;fo
   --glow1:rgba(255,255,255,.9);--glow2:rgba(228,202,127,.45);--glow3:rgba(148,153,65,.28);
   --b1:#FFFFFF;--b2:#FBEED2;--b3:#E4CA7F;--b4:#B08A3A;--b5:#E0C070;--b6:#A97C2E}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+/* ================= v3 · світ пташки ================= */
+:root{
+  --cta:var(--sun);
+  --cta-top:color-mix(in srgb,var(--sun) 72%,#fff);
+  --cta-depth:color-mix(in srgb,var(--sun) 62%,#3a1600);
+  --btn-depth:color-mix(in srgb,var(--grad2) 70%,#0b2a44);
+  --stage1:var(--hero1);--stage2:var(--hero2);
+}
+[data-theme="sunny"]{--cta:#8E9440;--cta-top:#AFB55C;--cta-depth:#5C601F}
+[data-theme="night"]{--cta-depth:#8A4A1A}
+/* «Небо» підлаштоване під пташку */
+:root:not([data-theme]),[data-theme="sky"]{
+  --sky:#ECF3F9;--sky-2:#DCE9F3;--blue:#79B4DE;--blue-2:#4A8CC2;--blue-d:#2F6A9E;
+  --ink:#183551;--ink-60:#557591;--ink-40:#8EA8BD;--line:#D8E5EF;
+  --grad1:#6FAEDC;--grad2:#3F7FB6;--hero1:#8CC3EA;--hero2:#3E7DB4;
+  --sun:#EE8F45;--chipbg:#E5F0F9;--tintA:#F5FAFE;--tintB:#E2EEF8;
+  --dot1:#8CC3EA;--dot2:#3F7FB6;
+  --pl1:#D9EBF8;--pl2:#A9D0EE;--pl3:#6FA9D8;
+  --ringfg:#FFFFFF;--glow2:rgba(111,174,220,.35);
+}
+h1,h2,h3,.num,.len,.clock,.brand,.stat .n,.exrow .du,.pl-name,.done-wrap .big{font-family:'M PLUS Rounded 1c','Nunito',system-ui,sans-serif;letter-spacing:-.015em}
+h1{font-size:29px;font-weight:800}
+h2{font-weight:800}
+.brand{font-weight:800;font-size:44px;letter-spacing:-.04em}
+.stat .n{font-weight:800;color:var(--blue-d)}
+.stat{box-shadow:inset 0 1px 0 rgba(255,255,255,.9),0 8px 18px -12px rgba(30,70,110,.45)}
+.card{border-radius:26px;box-shadow:inset 0 1px 0 rgba(255,255,255,.85),0 14px 30px -20px rgba(30,70,110,.5)}
+
+/* ---------- іграшкові кнопки ---------- */
+.btn{position:relative;border-radius:20px;letter-spacing:.03em;
+  background:linear-gradient(180deg,var(--grad1),var(--grad2));
+  box-shadow:inset 0 2px 0 rgba(255,255,255,.35),0 5px 0 var(--btn-depth),0 14px 22px -14px rgba(20,50,80,.6);
+  transition:transform .08s ease,box-shadow .08s ease}
+.btn:active{transform:translateY(4px);box-shadow:inset 0 2px 0 rgba(255,255,255,.3),0 1px 0 var(--btn-depth),0 6px 12px -10px rgba(20,50,80,.6)}
+.btn.ghost{background:var(--card);color:var(--ink-60);box-shadow:inset 0 0 0 2px var(--line),0 4px 0 var(--line)}
+.btn.ghost:active{box-shadow:inset 0 0 0 2px var(--line),0 0 0 var(--line)}
+.btn.white,.hero .btn{background:linear-gradient(180deg,var(--cta-top),var(--cta));color:#fff;font-size:17px;font-weight:900;letter-spacing:.08em;
+  text-shadow:0 1px 0 rgba(90,30,0,.35);
+  box-shadow:inset 0 2px 0 rgba(255,255,255,.45),0 5px 0 var(--cta-depth),0 16px 24px -14px rgba(60,20,0,.55)}
+.btn.white:active,.hero .btn:active{box-shadow:inset 0 2px 0 rgba(255,255,255,.4),0 1px 0 var(--cta-depth),0 6px 10px -8px rgba(60,20,0,.5)}
+.btn.sm{border-radius:15px}
+.btn.sm.ghost{box-shadow:inset 0 0 0 2px var(--line),0 3px 0 var(--line)}
+
+/* ---------- сцена-небо ---------- */
+.hero{position:relative;isolation:isolate;overflow:hidden;border-radius:30px;padding:18px 20px 24px;
+  background:linear-gradient(180deg,var(--stage1) 0%,var(--stage2) 100%);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.35),0 22px 40px -24px rgba(20,60,100,.85)}
+.hero::before,.hero::after,.player::before,.player::after{content:'';position:absolute;z-index:-1;pointer-events:none;
+  width:190px;height:70px;border-radius:999px;background:
+  radial-gradient(closest-side,rgba(255,255,255,.55),rgba(255,255,255,0)) 0 22px/90px 48px no-repeat,
+  radial-gradient(closest-side,rgba(255,255,255,.6),rgba(255,255,255,0)) 46px 0/100px 70px no-repeat,
+  radial-gradient(closest-side,rgba(255,255,255,.5),rgba(255,255,255,0)) 110px 18px/80px 52px no-repeat;
+  animation:drift 46s linear infinite}
+.hero::before{top:64px;left:-200px}
+.hero::after{top:150px;left:-200px;transform:scale(.7);opacity:.8;animation-duration:64s;animation-delay:-30s}
+.player::before{top:12%;left:-200px;animation-duration:58s}
+.player::after{top:52%;left:-200px;transform:scale(1.3);opacity:.7;animation-duration:80s;animation-delay:-40s}
+@keyframes drift{from{translate:0 0}to{translate:calc(100vw + 400px) 0}}
+.hero .mascot{margin:2px 0 0}
+.hero .mascot .bb{width:172px}
+.hero .lvchip{background:rgba(255,255,255,.22);box-shadow:inset 0 0 0 1px rgba(255,255,255,.35);backdrop-filter:blur(6px)}
+.hero h2{font-size:25px}
+.lvbar{height:10px;background:rgba(255,255,255,.28)}
+.lvbar i{background:linear-gradient(90deg,#fff,var(--cta-top))}
+
+/* ---------- нижнє меню з бульбашкою ---------- */
+.tabbar .inner{position:relative;border-radius:26px;box-shadow:inset 0 1px 0 rgba(255,255,255,.7),0 16px 32px -18px rgba(20,50,80,.75)}
+.tabbar .inner::before{content:'';position:absolute;top:8px;bottom:8px;left:8px;width:calc((100% - 16px)/var(--tn,5));
+  border-radius:19px;background:var(--chipbg);box-shadow:inset 0 0 0 1.5px color-mix(in srgb,var(--blue-2) 18%,transparent);
+  transform:translateX(calc(var(--ti,0)*100%));transition:transform .5s cubic-bezier(.34,1.5,.64,1)}
+.tabbar button{position:relative;z-index:1;background:none!important}
+.tabbar button.on svg,.tabbar button.on .ico-sun{animation:tabpop .45s cubic-bezier(.34,1.8,.64,1)}
+@keyframes tabpop{0%{transform:scale(.7)}60%{transform:scale(1.18)}100%{transform:scale(1)}}
+
+/* ---------- плеєр ---------- */
+.player{isolation:isolate}
+.ring .t{inset:10%}
+.clock{border-radius:24px;box-shadow:inset 0 2px 0 rgba(255,255,255,.9),0 5px 0 color-mix(in srgb,var(--pl3) 60%,#123),0 18px 28px -16px rgba(20,50,80,.6)}
+.pl-ctrl .main{box-shadow:inset 0 2px 0 rgba(255,255,255,.9),0 5px 0 color-mix(in srgb,var(--pl3) 55%,#123),0 18px 26px -14px rgba(20,50,80,.7)}
+.pl-ctrl .main:active{transform:translateY(4px)}
+.exrow .ix{border-radius:50%;font-family:'M PLUS Rounded 1c','Nunito',sans-serif}
+
+/* ================= жива пташка ================= */
+.bb{position:relative;width:100%;aspect-ratio:1;container-type:inline-size;cursor:pointer;-webkit-user-select:none;user-select:none;margin:0 auto}
+.bb-sh{position:absolute;left:28%;right:28%;bottom:6%;height:7%;border-radius:50%;
+  background:radial-gradient(closest-side,rgba(20,45,75,.35),rgba(20,45,75,0));animation:bbsh 3.4s ease-in-out infinite}
+.bb-b{position:absolute;inset:0;transform-origin:50% 84%;animation:bbfloat 3.4s ease-in-out infinite;will-change:transform}
+.bb-b img{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;-webkit-user-drag:none}
+@keyframes bbfloat{0%,100%{transform:translateY(0) scale(1.03,.97)}50%{transform:translateY(-5%) scale(.98,1.02)}}
+@keyframes bbsh{0%,100%{transform:scaleX(1);opacity:1}50%{transform:scaleX(.78);opacity:.6}}
+/* під час вправи — енергійні стрибки */
+.bb.mood-wide .bb-b{animation:bbhop .72s cubic-bezier(.4,0,.6,1) infinite}
+.bb.mood-wide .bb-sh{animation:bbshhop .72s cubic-bezier(.4,0,.6,1) infinite}
+@keyframes bbhop{0%,100%{transform:translateY(0) scale(1.07,.93)}18%{transform:translateY(-4%) scale(.95,1.06)}50%{transform:translateY(-10%) scale(.98,1.02)}82%{transform:translateY(-3%) scale(1,1)}}
+@keyframes bbshhop{0%,100%{transform:scaleX(1.05);opacity:1}50%{transform:scaleX(.66);opacity:.45}}
+/* пауза — повільне дихання */
+.bb.mood-happy .bb-b{animation:bbbreath 4.6s ease-in-out infinite}
+.bb.mood-happy .bb-sh{animation:none}
+@keyframes bbbreath{0%,100%{transform:scale(1,1)}45%{transform:scale(1.035,1.045) translateY(-1%)}}
+/* фініш — святковий підскок */
+.bb.mood-wow .bb-b{animation:bbcheer 1.5s cubic-bezier(.3,0,.4,1) infinite}
+.bb.mood-wow .bb-sh{animation:bbshhop 1.5s cubic-bezier(.3,0,.4,1) infinite}
+@keyframes bbcheer{0%,100%{transform:translateY(0) scale(1.06,.94) rotate(0)}25%{transform:translateY(-13%) scale(.96,1.05) rotate(-5deg)}50%{transform:translateY(0) scale(1.06,.94) rotate(0)}75%{transform:translateY(-9%) scale(.97,1.03) rotate(5deg)}}
+/* цікаво — нахиляє голову */
+.bb.mood-curious .bb-b{animation:bbtilt 3s ease-in-out infinite}
+@keyframes bbtilt{0%,100%{transform:rotate(-6deg) translateY(0)}50%{transform:rotate(6deg) translateY(-3%)}}
+.bb-q{position:absolute;right:4%;top:6%;width:22%;aspect-ratio:1;border-radius:50% 50% 50% 12%;background:#fff;
+  display:grid;place-items:center;font:900 13cqw/1 'M PLUS Rounded 1c','Nunito',sans-serif;color:var(--cta,#EE8F45);
+  box-shadow:0 6px 14px -6px rgba(20,50,80,.45);animation:bbq 2.2s ease-in-out infinite}
+@keyframes bbq{0%,100%{transform:translateY(0) rotate(-6deg)}50%{transform:translateY(-12%) rotate(6deg)}}
+/* дотик */
+.bb.tap .bb-b{animation:bbtap .5s cubic-bezier(.3,0,.3,1.4)}
+@keyframes bbtap{0%{transform:scale(1.14,.84)}35%{transform:translateY(-14%) scale(.9,1.12)}70%{transform:translateY(0) scale(1.06,.95)}100%{transform:none}}
+/* повіки */
+.lid{position:absolute;border-radius:50%;transform:scaleY(0);transform-origin:50% 0;pointer-events:none}
+.lid::after{content:'';position:absolute;left:10%;right:10%;bottom:12%;height:42%;border-radius:50%;
+  border-bottom:max(1.4px,1.15cqw) solid #3A2317}
+.bb.blink .lid{animation:bblink .2s ease-in-out}
+@keyframes bblink{0%,100%{transform:scaleY(0)}45%,60%{transform:scaleY(1)}}
+/* частинки */
+.bb-fx{position:absolute;inset:0;pointer-events:none;overflow:visible}
+.bb-fx i{position:absolute;left:50%;top:40%;display:block}
+.bb-fx .ht{top:20%;width:14cqw;height:14cqw;margin:-7cqw 0 0 -7cqw;animation:bbheart 1.6s cubic-bezier(.2,.6,.3,1) forwards}
+.bb-fx .ht svg{width:100%;height:100%;display:block}
+@keyframes bbheart{0%{transform:translate(0,0) scale(.3);opacity:0}15%{opacity:1;transform:translate(calc(var(--dx)*.2),-10cqw) scale(1)}100%{transform:translate(var(--dx),-48cqw) scale(.7) rotate(var(--r));opacity:0}}
+.bb-fx .cf{top:26%;width:3.6cqw;height:6cqw;border-radius:1cqw;margin:-3cqw 0 0 -1.8cqw;background:var(--c);
+  animation:bbconf 1.25s cubic-bezier(.15,.7,.3,1) forwards}
+@keyframes bbconf{0%{transform:translate(0,0) rotate(0) scale(.6);opacity:1}70%{opacity:1}100%{transform:translate(var(--dx),var(--dy)) rotate(var(--r)) scale(1);opacity:0}}
+.bb-fx .sp{width:9cqw;height:9cqw;margin:-4.5cqw 0 0 -4.5cqw;left:var(--x);top:var(--y);animation:bbspark 1.1s ease-in-out forwards}
+.bb-fx .sp svg{width:100%;height:100%;display:block}
+@keyframes bbspark{0%,100%{transform:scale(0) rotate(0);opacity:0}50%{transform:scale(1) rotate(45deg);opacity:1}}
+.mascot .bb{width:150px}
+.done-wrap .bb{width:170px}
+.mpick .bb{width:100%}
+#bird-card .bb{width:96px}
+@media(prefers-reduced-motion:reduce){
+  .bb-b,.bb-sh,.bb-q,.hero::before,.hero::after,.player::before,.player::after{animation:none!important}
+  .bb-fx{display:none}
+}
+
 </style>
 </head>
 <body>
@@ -587,6 +727,65 @@ function bearSync(){
   const f=el.dataset.bear;
   BEAR.speed=f==='wide'?1.6:(f==='happy'?0.55:(f==='wow'?1.3:1));
 }
+/* ================= жива пташка ================= */
+const BB_LIDS={
+  open:[{l:33.9,t:40.6,w:16.8,h:17.0,c1:'#7AABC8',c2:'#5D97BC'},{l:66.7,t:40.6,w:11.0,h:16.1,c1:'#5E94B9',c2:'#3E7CA7'}],
+  curious:[{l:33.7,t:43.0,w:17.0,h:17.7,c1:'#75A7C4',c2:'#568EB3'},{l:64.5,t:39.7,w:12.6,h:16.6,c1:'#6B98B2',c2:'#3A7298'}]
+};
+function bbHTML(src,face){
+  const lids=(BB_LIDS[face]||[]).map(x=>`<i class="lid" style="left:${x.l}%;top:${x.t}%;width:${x.w}%;height:${x.h}%;background:linear-gradient(180deg,${x.c1},${x.c2})"></i>`).join('');
+  return `<div class="bb mood-${face}${lids?' has-lids':''}" data-face="${face}"><span class="bb-sh"></span>`+
+    `<span class="bb-b"><img src="${src}" alt="" draggable="false">${lids}</span>`+
+    (face==='curious'?'<span class="bb-q">?</span>':'')+`<span class="bb-fx"></span></div>`;
+}
+const BB_HEART='<svg viewBox="0 0 24 24"><path d="M12 21s-7.5-4.6-9.6-9.2C.8 8.3 3 4.5 6.7 4.5c2.2 0 3.6 1.2 4.3 2.4.7-1.2 2.1-2.4 4.3-2.4 3.7 0 5.9 3.8 4.3 7.3C19.5 16.4 12 21 12 21z" fill="#F07A8E"/><path d="M7 7.5c-1.4.3-2.3 1.6-2.1 3" stroke="#fff" stroke-width="1.6" stroke-linecap="round" fill="none" opacity=".7"/></svg>';
+const BB_SPARK='<svg viewBox="0 0 24 24"><path d="M12 1l2.6 8.4L23 12l-8.4 2.6L12 23l-2.6-8.4L1 12l8.4-2.6z" fill="#FFD25A"/></svg>';
+const BB_REDUCED=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+function bbVisible(el){const r=el.getBoundingClientRect();return r.width>0&&r.bottom>0&&r.top<innerHeight&&el.offsetParent!==null}
+function bbSpawn(el,cls,html,vars,ttl){
+  if(BB_REDUCED)return;
+  const fx=el.querySelector('.bb-fx');if(!fx)return;
+  const i=document.createElement('i');i.className=cls;if(html)i.innerHTML=html;
+  Object.entries(vars||{}).forEach(([k,v])=>i.style.setProperty(k,v));
+  fx.appendChild(i);setTimeout(()=>i.remove(),ttl||1700);
+}
+function bbHeart(el){bbSpawn(el,'ht',BB_HEART,{'--dx':(Math.random()*36-18).toFixed(1)+'cqw','--r':(Math.random()*40-20).toFixed(0)+'deg'},1700)}
+function bbConfetti(el){
+  const cols=['#4A8CC2','#EE8F45','#F07A8E','#FFD25A','#7FC8A9','#8CC3EA'];
+  for(let k=0;k<18;k++){
+    const a=(-90+(Math.random()*160-80))*Math.PI/180,d=34+Math.random()*30;
+    bbSpawn(el,'cf','',{'--c':cols[k%cols.length],'--dx':(Math.cos(a)*d).toFixed(1)+'cqw','--dy':(Math.sin(a)*d+18).toFixed(1)+'cqw','--r':(Math.random()*720-360).toFixed(0)+'deg'},1300);
+  }
+  for(let k=0;k<4;k++)setTimeout(()=>bbSpawn(el,'sp',BB_SPARK,{'--x':(12+Math.random()*76)+'%','--y':(6+Math.random()*50)+'%'},1150),k*180);
+}
+document.addEventListener('click',e=>{
+  const el=e.target.closest&&e.target.closest('.bb');if(!el)return;
+  el.classList.remove('tap');void el.offsetWidth;el.classList.add('tap');
+  setTimeout(()=>el.classList.remove('tap'),520);
+  bbHeart(el);if(Math.random()<.5)setTimeout(()=>bbHeart(el),140);
+});
+(function blinkLoop(){
+  setTimeout(()=>{
+    const all=[...document.querySelectorAll('.bb.has-lids')].filter(bbVisible);
+    const twice=Math.random()<.22;
+    const blink=()=>{all.forEach(b=>{b.classList.remove('blink');void b.offsetWidth;b.classList.add('blink')});
+      setTimeout(()=>all.forEach(b=>b.classList.remove('blink')),220)};
+    blink();if(twice)setTimeout(blink,300);
+    blinkLoop();
+  },2400+Math.random()*3200);
+})();
+setInterval(()=>{                                   // сердечка в паузі
+  document.querySelectorAll('.bb.mood-happy').forEach(b=>{if(bbVisible(b)&&Math.random()<.7)bbHeart(b)});
+},1900);
+let bbRaf=0;
+new MutationObserver(()=>{
+  if(bbRaf)return;
+  bbRaf=requestAnimationFrame(()=>{bbRaf=0;
+    document.querySelectorAll('.bb.mood-wow:not([data-cf])').forEach(b=>{
+      if(!bbVisible(b))return;b.dataset.cf=1;bbConfetti(b);setTimeout(()=>b.isConnected&&bbConfetti(b),1600)});
+  });
+}).observe(document.documentElement,{childList:true,subtree:true});
+
 const PHOTO_BASES=['img/','./img/','images/','assets/',''];
 const PHOTOSETS=[
  {id:'ph-bird',n:'Пташка',n2:'вшита',embedded:1,base:'',map:BIRDIMG},
@@ -596,6 +795,7 @@ const PHOTOSETS=[
  {id:'ph-whale',n:'Кит',probe:'whale.png',map:{open:'whale.png'}}
 ];
 const PHOTO_OK={};
+PHOTOSETS.forEach(s=>{if(s.embedded)PHOTO_OK[s.id]=true});
 function photoSet(id){return PHOTOSETS.find(s=>s.id===id)}
 function probeSet(s,cb){
   let i=0;
@@ -631,7 +831,9 @@ function birdSVG(lv,mid,face){
   if(ps&&(PHOTO_OK[ps.id]||mid)){
     const f=face||'open';
     const pre=ps.embedded?'':(ps.base||'img/');
-    return `<img class="bird photo" src="${pre+(ps.map[f]||ps.map.open)}" alt="">`;
+    const src=pre+(ps.map[f]||ps.map.open);
+    if(ps.id.startsWith('ph-bird'))return bbHTML(src,f);
+    return `<img class="bird photo" src="${src}" alt="">`;
   }
   const M=MASC.find(x=>x.id===(mid||S.mascot))||MASC[0];
   const L=lv||birdLevel(),f=face||'open';
@@ -1603,7 +1805,10 @@ let tmpGoal='glutes',tmpProg='mid';
 function show(id){document.querySelectorAll('.screen').forEach(s=>s.classList.toggle('on',s.id===id));window.scrollTo(0,0)}
 function tab(name){
   show('s-'+name);
-  document.querySelectorAll('.tabbar button').forEach(b=>b.classList.toggle('on',b.dataset.tab===name));
+  const tbs=[...document.querySelectorAll('.tabbar button')];
+  tbs.forEach(b=>b.classList.toggle('on',b.dataset.tab===name));
+  const ti=tbs.findIndex(b=>b.dataset.tab===name),inn=document.querySelector('.tabbar .inner');
+  if(inn){inn.style.setProperty('--tn',tbs.length);if(ti>=0)inn.style.setProperty('--ti',ti)}
   if(name==='today')renderToday();
   if(name==='path')renderPath();
   if(name==='yoga')renderYoga();
@@ -2519,7 +2724,7 @@ $('pl-sound').onclick=()=>{
   else{(mAudio&&mAudio.src)?musicPause(false):musicStart();toast('Музику увімкнено')}
 };
 
-const APPV='2.1 · 13.10';
+const APPV='2.2 · 14.10';
 /* ============ ВСТАНОВЛЕННЯ ============ */
 let installEvt=null,swReg=null,swFresh=false;
 const standalone=()=>window.matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;
